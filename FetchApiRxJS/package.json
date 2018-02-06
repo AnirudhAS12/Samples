@@ -1,0 +1,17 @@
+{
+  "name": "fetchapirxjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   
+    "start":"webpack-dev-server api.js bundle.js",
+    "build":"webpack api.js bundle.js"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack-dev-server": "^2.9.7"
+  }
+}
